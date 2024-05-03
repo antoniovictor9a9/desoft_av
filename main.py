@@ -1,6 +1,6 @@
 import random
 
-# Configurações e definições dos tamanhos dos navios e das configurações dos estados brasileiros
+
 CONFIGURACAO = {
     'destroyer': 3,
     'porta-avioes': 5,
@@ -124,7 +124,7 @@ def jogo():
             print("Parabéns! Você venceu!")
             break
 
-        # Simulação de turno do computador (pode ser expandido)
+        
         linha_computador = random.randint(0, tamanho_tabuleiro - 1)
         coluna_computador = random.randint(0, tamanho_tabuleiro - 1)
         resultado_computador = atacar(tabuleiro_usuario, linha_computador, coluna_computador)
@@ -135,5 +135,3 @@ def jogo():
 
 if __name__ == "__main__":
     jogo()
-Antonio 
-Gabriel
